@@ -1,9 +1,6 @@
 import { DataSource } from 'typeorm';
 
-import { ImageEntity } from '../../../../backoffice/image/infrastructure/persistence/typeorm/ImageEntity.entity';
 import { TypeOrmConfig } from './TypeOrmConfig';
-
-ImageEntity;
 
 export class TypeOrmClientFactory {
 	static async createClient(contextName: string, config: TypeOrmConfig): Promise<DataSource> {
