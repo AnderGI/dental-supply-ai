@@ -3,6 +3,3 @@ node_modules/
 logs/
 data
 test-results.xml
-config/jwt/*.pem
-.env
-./.github/workflows/nodejs.yml
