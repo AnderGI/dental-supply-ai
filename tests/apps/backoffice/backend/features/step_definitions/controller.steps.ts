@@ -39,3 +39,7 @@ Then('the response status code should be {int}', (status: number) => {
 Then('the response body should be empty', () => {
 	assert.deepEqual(_response.body, {});
 });
+
+Then('the response body should be:', (response: string) => {
+	assert.deepEqual(_response.body, JSON.parse(response));
+});
