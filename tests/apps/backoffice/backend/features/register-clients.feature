@@ -74,3 +74,43 @@ Feature: Register Clients
          ]
        }
     """
+
+    Scenario: Invalid UUID path param + Invalid JSON request body types. 
+    Given I send a PUT request to "/clients/nvhvgbvnmjb" with JSON request body:
+    """
+    {
+      "name": true,
+      "email": "ajgh@gmail.com",
+      "phone": 2348678557584,
+      "company": "Acme Corp",
+      "position": 4656
+    }
+    """
+    Then the response status code should be 400
+    Then the response body should be:
+    """
+       {
+         "errors": [
+           {
+             "msg": "The id param must be a valid UUID",
+             "param": "id"
+           },
+           {
+             "msg": "Name must be a string",
+             "param": "name"
+           },
+           {
+             "msg": "Phone number must be a string",
+             "param": "phone"
+           },
+           {
+             "msg": "Phone number must be exactly 9 digits",
+             "param": "phone"
+           },
+           {
+             "msg": "Position must be a string",
+             "param": "position"
+           }
+         ]
+       }
+    """
