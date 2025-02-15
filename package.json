@@ -20,10 +20,8 @@
     "test:integration": "cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/.*/infrastructure/.*/.*\\.test\\.ts'",
     "test:features": "concurrently --kill-others-on-fail --names backoffice:backend:features,backoffice:frontend:features -c red,blue \"npm run test:backoffice:backend:features\" \"npm run test:backoffice:frontend:features\"",
     "test:backoffice:backend:features": "cross-env NODE_ENV=test cucumber-js --force-exit -p backoffice_backend",
-    "test:backoffice:frontend:features": "cross-env NODE_ENV=test cucumber-js --force-exit -p backoffice_frontend",
     "dev:backoffice": "concurrently --kill-others --names backoffice:backend,backoffice:frontend -c red,blue \"npm run dev:backoffice:backend\" \"npm run dev:backoffice:frontend\"",
     "dev:backoffice:backend": "cross-env NODE_ENV=dev ts-node-dev --ignore-watch node_modules  ./src/apps/backoffice/backend/start.ts",
-    "dev:backoffice:frontend": "cross-env NODE_ENV=dev ts-node-dev --ignore-watch node_modules  ./src/apps/backoffice/frontend/start.ts",
     "build": "mkdir dist && npm run build:clean && npm run build:tsc && npm run build:di",
     "build:tsc": "tsc -p tsconfig.prod.json",
     "build:di": "copy 'src/**/*.{json,yaml,html,png}' dist/src",
@@ -33,17 +31,9 @@
     "start:backoffice:backend": "cross-env NODE_ENV=production node dist/src/apps/backoffice/backend/start",
     "rabbitmq:configure": "npx ts-node ./src/scripts/configure-rabbitmq/configure-rabbitmq.ts",
     "rabbitmq:consume": "npx ts-node ./src/scripts/configure-rabbitmq/consume-rabbitmq.ts",
-    "script:remove-uploads": "npx ts-node ./src/scripts/clean-uploads/clean-uploads.ts",
-    "test:backoffice:backend:contexts":"npm run test:backoffice:backend:spotify-user && npm run test:backoffice:backend:spotify-user-last-tracks",
     "test:backoffice:backend:spotify-user":"npm run test:backoffice:backend:spotify-user:unit && npm run test:backoffice:backend:spotify-user:integration",
     "test:backoffice:backend:spotify-user:unit":"cross-env NODE_ENV=test jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/spotify-user/application/.*\\.test\\.ts'",
-    "test:backoffice:backend:spotify-user:integration":"cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/spotify-user/infrastructure/.*/.*\\.test\\.ts'",
-    "test:backoffice:backend:spotify-user-last-tracks":"npm run test:backoffice:backend:spotify-user-last-tracks:unit && npm run test:backoffice:backend:spotify-user-last-tracks:integration",
-    "test:backoffice:backend:spotify-user-last-tracks:unit":"cross-env NODE_ENV=test jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/spotify-user-last-tracks/application/.*\\.test\\.ts'",
-    "test:backoffice:backend:spotify-user-last-tracks:integration":"cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/spotify-user-last-tracks/infrastructure/.*/.*\\.test\\.ts'",
-    "test:backoffice:backend:image:unit": "cross-env NODE_ENV=test jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/image/application/.*\\.test\\.ts'",
-    "test:backoffice:backend:image:integration":"cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/image/infrastructure/.*/.*\\.test\\.ts'"
-
+    "test:backoffice:backend:spotify-user:integration":"cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/spotify-user/infrastructure/.*/.*\\.test\\.ts'"
   },
   "dependencies": {
     "@langchain/core": "^0.3.23",
