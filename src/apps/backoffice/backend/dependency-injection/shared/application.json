@@ -1,0 +1,14 @@
+{
+  "services": {
+    "shared.CommandBus": {
+      "class": "../../../../../shared/infrastructure/command/InMemoryCommandBus",
+      "arguments": ["@shared.CommandHandlers"]
+    },
+    "shared.CommandHandlers": {
+      "class": "../../../../../shared/domain/command/CommandHandlers",
+      "arguments": ["!tagged commandHandler"]
+    }
+  }
+}
+
+

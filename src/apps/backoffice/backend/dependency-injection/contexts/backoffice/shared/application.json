@@ -1,0 +1,52 @@
+{
+  "services": {
+    "backoffice.shared.TypeOrmConfig":{
+      "factory":{
+        "class": "../../../../../../../contexts/shared/infrastructure/persistence/typeorm/TypeOrmConfigFactory",
+        "method": "createConfig"
+      }
+    },
+    "backoffice.shared.TypeOrmClientFactory":{
+      "factory":{
+        "class": "../../../../../../../contexts/shared/infrastructure/persistence/typeorm/TypeOrmClientFactory",
+        "method": "createClient"
+      },
+      "arguments": ["backoffice", "@backoffice.shared.TypeOrmConfig"]
+    },
+    "backoffice.shared.AmqpChannelPublishOptionsFactory": {
+      "factory":{
+        "class": "../../../../../../../contexts/shared/infrastructure/event/AmqpChannelPublishOptionsFactory",
+        "method": "createOptions"
+      }
+    },
+    "backoffice.shared.AmqpConnectionSettingsFactory": {
+      "factory":{
+        "class": "../../../../../../../contexts/shared/infrastructure/event/AmqpConnectionSettingsFactory",
+        "method": "createConnection"
+      }
+    },
+    "backoffice.shared.RabbitMqConnection": {
+      "class": "../../../../../../../contexts/shared/infrastructure/event/RabbitMqConnection",
+      "arguments": ["@backoffice.shared.AmqpConnectionSettingsFactory", "@backoffice.shared.AmqpChannelPublishOptionsFactory", "@backoffice.shared.DomainEventJsonDeserializer"]
+    },
+    "backoffice.shared.DomainEventsFallback": {
+      "class": "../../../../../../../contexts/shared/infrastructure/event/DomainEventsFallback",
+      "arguments": ["@backoffice.shared.TypeOrmClientFactory"]
+    },
+    "backoffice.shared.DomainEventJsonDeserializer": {
+      "factory":{
+        "class": "../../../../../../../contexts/shared/infrastructure/event/DomainEventJsonDeserializer",
+        "method":"create"
+      },
+      "arguments": [""]
+    },
+    "backoffice.shared.DomainEventJsonSerializer": {
+      "class": "../../../../../../../contexts/shared/infrastructure/event/DomainEventJsonSerializer",
+      "arguments": [""]
+    },
+    "backoffice.shared.EventBus": {
+      "class": "../../../../../../../contexts/shared/infrastructure/event/RabbitMqEventBus",
+      "arguments": ["@backoffice.shared.RabbitMqConnection","@backoffice.shared.DomainEventsFallback", "@backoffice.shared.DomainEventJsonSerializer"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "services": {
+    "backoffice.image.RelateImageToEmotionOnImageSubmited": {
+      "class": "../../../../../../../contexts/backoffice/image-to-emotion/application/relate/RelateImageToEmotionOnImageSubmited",
+      "arguments": [""]
+  }
+  }
+}
+
+
+
+

@@ -5,7 +5,6 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [20.x]
@@ -15,15 +14,33 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install
-        run: |
-          npm install
-      - name: npm run lint
-        run: |
-          npm run lint
-      - name: npm run build
-        run: |
-          npm run build --if-present
-      - name: npm test
-        run: |
-          npm test
+
+      - name: List files in the current directory
+        run: ls -la
+      - name: Start docker
+        run: docker compose up -d
+      - name: Wait for containers to be ready
+        run: sleep 10
+      - name: Check running containers
+        run: docker ps
+      - name: Check ollama logs
+        run: docker logs ollama-inferer
+      - name: Pull LLaVA:7b model into ollama-inferer docker container
+        run: docker exec ollama-inferer ./bin/bash -c "ollama pull llava:7b"
+      - name: Install dependencies
+        run: npm install
+      - name: Run linter
+        run: npm run lint
+      - name: Configure RabbitMQ exchanges and queues from subcribers
+        run: npm run rabbitmq:configure
+      - name: Open a consumption channel for RabbitMQ subscribers
+        run: npm run rabbitmq:consume &
+      - name: Build process
+        run: npm run build
+      - name: Backoffice spotify-user contexts unit tests
+        run: npm run test:backoffice:backend:spotify-user:unit
+      - name: Backoffice spotify-user-last-tracks contexts unit tests
+        run: npm run test:backoffice:backend:spotify-user-last-tracks:unit
+      - name: Stop docker container
+        if: always()
+        run: docker compose down 

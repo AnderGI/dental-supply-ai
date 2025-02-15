@@ -1,8 +1,16 @@
 {
   "services": {
-    "apps.mooc.StatusGetController":{
+    "apps.backoffice.StatusGetController":{
       "class": "../../controllers/status-health-check/StatusGetController",
       "arguments": [""]
+    },
+    "apps.backoffice.ImagePutController": {
+      "class": "../../controllers/submit-image/ImagePutController",
+      "arguments": ["@shared.CommandBus"]     
+    },
+    "apps.backoffice.SpotifyUserPostController": {
+      "class": "../../controllers/login-spotify-user/SpotifyUserPostController",
+      "arguments": ["@shared.CommandBus"]     
     }
   }
 }
