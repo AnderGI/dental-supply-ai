@@ -1,9 +1,45 @@
 import { NextFunction, Request, Response, Router } from 'express';
-import { param, validationResult } from 'express-validator';
+import { body, param, validationResult } from 'express-validator';
 import httpStatus from 'http-status';
 
-const requestSchema = [param('id').isUUID().withMessage('The id param must be a valid UUID')];
+const requestSchema = [
+	param('id').isUUID().withMessage('The id param must be a valid UUID'),
 
+	// Validar el campo 'name'
+	body('name')
+		.notEmpty()
+		.withMessage('Name is required')
+		.isString()
+		.withMessage('Name must be a string')
+		.isLength({ min: 1 })
+		.withMessage('Name cannot be empty'),
+
+	// Validar el campo 'email'
+	body('email').isEmail().withMessage('Must be a valid email address').normalizeEmail(), // Para normalizar el correo (convertirlo en minúsculas)
+
+	// Validar el campo 'phone' para que sea exactamente 9 dígitos
+	body('phone')
+		.notEmpty()
+		.withMessage('Phone number is required')
+		.isString()
+		.withMessage('Phone number must be a string')
+		.matches(/^\d{9}$/)
+		.withMessage('Phone number must be exactly 9 digits'),
+
+	// Validar el campo 'company'
+	body('company')
+		.notEmpty()
+		.withMessage('Company name is required')
+		.isString()
+		.withMessage('Company must be a string'),
+
+	// Validar el campo 'position'
+	body('position')
+		.notEmpty()
+		.withMessage('Position is required')
+		.isString()
+		.withMessage('Position must be a string')
+];
 export const register = (router: Router): void => {
 	router.put(
 		'/clients/:id',
