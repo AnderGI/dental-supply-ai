@@ -37,6 +37,10 @@ jobs:
         run: npm run rabbitmq:consume &
       - name: Build process
         run: npm run build
+      - name: Backoffice client context unit tests
+        run: npm run test:backoffice:backend:client:unit
+      - name: Backoffice client context integration tests
+        run: npm run test:backoffice:backend:client:integration
       - name: Stop docker container
         if: always()
         run: docker compose down 
