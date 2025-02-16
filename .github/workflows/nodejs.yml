@@ -41,6 +41,8 @@ jobs:
         run: npm run test:backoffice:backend:client:unit
       - name: Backoffice client context integration tests
         run: npm run test:backoffice:backend:client:integration
+      - name: Bckoffice vbackend feature
+        run: npm run test:backoffice:backend:features
       - name: Stop docker container
         if: always()
         run: docker compose down 

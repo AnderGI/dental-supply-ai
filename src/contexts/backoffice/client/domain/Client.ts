@@ -1,4 +1,5 @@
 import { AggregateRoot } from '../../../shared/domain/AggregateRoot';
+import { EventBus } from '../../../shared/domain/event/EventBus';
 import RegisterClientCommand from '../application/register/RegisterClientCommand';
 import ClientCompany from './ClientCompany';
 import ClientEmail from './ClientEmail';
@@ -50,8 +51,8 @@ export default class Client implements AggregateRoot {
 	}
 
 	static save(command: RegisterClientCommand) {
-		return async (repository: ClientRepository): Promise<void> => {
-			await ClientSaver.save(command, repository);
+		return async (repository: ClientRepository, eventBus: EventBus): Promise<void> => {
+			await ClientSaver.save(command, repository, eventBus);
 		};
 	}
 

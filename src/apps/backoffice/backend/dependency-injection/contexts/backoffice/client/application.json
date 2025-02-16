@@ -3,6 +3,20 @@
     "backoffice.client.ClientRepository": {
       "class": "../../../../../../../contexts/backoffice/client/infrastructure/persistence/typeorm/TypeOrmClientRepository",
       "arguments": ["@backoffice.shared.TypeOrmClientFactory"]
+    },
+    "backoffice.client.ClientRegistrar": {
+      "class": "../../../../../../../contexts/backoffice/client/application/register/ClientRegistrar",
+      "arguments": ["@backoffice.client.ClientRepository"]
+    },
+    "andergi.backoffice.client.event.client_registered.1": {
+      "class": "../../../../../../../contexts/backoffice/client/application/register/ClientRegisteredDomainEvent",
+      "arguments": [""],
+      "tags": [{"name":"domainEvent"}]
+    },
+    "backoffice.client.RegisterClientCommandHandler": {
+      "class": "../../../../../../../contexts/backoffice/client/application/register/RegisterClientCommandHandler",
+      "arguments": ["@backoffice.client.ClientRegistrar"],
+      "tags": [{"name":"commandHandler"}]
     }
   }
 }

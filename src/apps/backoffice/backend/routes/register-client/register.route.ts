@@ -1,6 +1,11 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { NextFunction, Request, Response, Router } from 'express';
 import { body, param, validationResult } from 'express-validator';
 import httpStatus from 'http-status';
+
+import ClientPutController from '../../controllers/register-client/ClientPutController';
+import ClientPutRequest from '../../controllers/register-client/ClientPutRequest';
+import container from '../../dependency-injection';
 
 const requestSchema = [
 	param('id').isUUID().withMessage('The id param must be a valid UUID'),
@@ -41,6 +46,8 @@ const requestSchema = [
 		.withMessage('Position must be a string')
 ];
 export const register = (router: Router): void => {
+	const controller = container.get<ClientPutController>('apps.backoffice.ClientPutController');
+
 	router.put(
 		'/clients/:id',
 		requestSchema,
@@ -60,7 +67,11 @@ export const register = (router: Router): void => {
 			return res.status(httpStatus.BAD_REQUEST).json({ errors });
 		},
 		(req: Request, res: Response) => {
-			return res.status(httpStatus.ACCEPTED).send();
+			const { id } = req.params;
+			const { name, email, phone, company, position } = req.body;
+			controller.run({ id, name, email, phone, company, position } as ClientPutRequest, res);
+
+			return;
 		}
 	);
 };
