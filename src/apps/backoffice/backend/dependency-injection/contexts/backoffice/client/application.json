@@ -1,0 +1,8 @@
+{
+  "services": {
+    "backoffice.client.ClientRepository": {
+      "class": "../../../../../../../contexts/backoffice/client/infrastructure/persistence/typeorm/TypeOrmClientRepository",
+      "arguments": ["@backoffice.shared.TypeOrmClientFactory"]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import * as fs from 'faker';
 
-import RegisterClientCommand from '../../../../../../src/contexts/backoffice/clients/application/register/RegisterClientCommand';
+import RegisterClientCommand from '../../../../../../src/contexts/backoffice/client/application/register/RegisterClientCommand';
 
 export class RegisterClientCommandMother {
 	static random(): RegisterClientCommand {

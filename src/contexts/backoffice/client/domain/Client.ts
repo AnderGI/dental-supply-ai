@@ -1,3 +1,4 @@
+import { AggregateRoot } from '../../../shared/domain/AggregateRoot';
 import RegisterClientCommand from '../application/register/RegisterClientCommand';
 import ClientCompany from './ClientCompany';
 import ClientEmail from './ClientEmail';
@@ -8,7 +9,7 @@ import ClientPosition from './ClientPosition';
 import ClientRepository from './ClientRepository';
 import ClientSaver from './save/ClientSaver';
 
-type CreateClientPrimitives = {
+type ClientPrimitives = {
 	id: string;
 	name: string;
 	email: string;
@@ -16,7 +17,7 @@ type CreateClientPrimitives = {
 	company: string;
 	position: string;
 };
-export default class Client {
+export default class Client implements AggregateRoot {
 	constructor(
 		readonly id: ClientId,
 		readonly name: ClientName,
@@ -26,7 +27,7 @@ export default class Client {
 		readonly position: ClientPosition
 	) {}
 
-	public static create(_: CreateClientPrimitives): Client {
+	public static create(_: ClientPrimitives): Client {
 		return new Client(
 			new ClientId(_.id),
 			new ClientName(_.name),
@@ -37,7 +38,7 @@ export default class Client {
 		);
 	}
 
-	public static fromPrimitives(_: CreateClientPrimitives): Client {
+	public static fromPrimitives(_: ClientPrimitives): Client {
 		return new Client(
 			new ClientId(_.id),
 			new ClientName(_.name),
@@ -51,6 +52,17 @@ export default class Client {
 	static save(command: RegisterClientCommand) {
 		return async (repository: ClientRepository): Promise<void> => {
 			await ClientSaver.save(command, repository);
+		};
+	}
+
+	toPrimitives(): ClientPrimitives {
+		return {
+			id: this.id.getValue(),
+			name: this.name.getValue(),
+			email: this.email.getValue(),
+			phone: this.phone.getValue(),
+			company: this.company.getValue(),
+			position: this.position.getValue()
 		};
 	}
 }

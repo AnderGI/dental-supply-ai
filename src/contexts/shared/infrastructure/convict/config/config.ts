@@ -23,7 +23,7 @@ const config = convict({
 			doc: 'The database port',
 			format: Number,
 			env: 'TYPEORM_PORT',
-			default: 5432
+			default: 5433
 		},
 		username: {
 			doc: 'The database username',

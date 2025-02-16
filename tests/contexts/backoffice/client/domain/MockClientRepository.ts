@@ -1,5 +1,5 @@
-import Client from '../../../../../src/contexts/backoffice/clients/domain/Client';
-import ClientRepository from '../../../../../src/contexts/backoffice/clients/domain/ClientRepository';
+import Client from '../../../../../src/contexts/backoffice/client/domain/Client';
+import ClientRepository from '../../../../../src/contexts/backoffice/client/domain/ClientRepository';
 
 export default class MockClientRepository implements ClientRepository {
 	private readonly mockSave: jest.Mock;

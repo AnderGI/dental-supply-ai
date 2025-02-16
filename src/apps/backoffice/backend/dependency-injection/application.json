@@ -1,8 +1,9 @@
 {
   "imports": [
-    { "resource": "./contexts/backoffice/shared/application.json" },
     { "resource": "./shared/application.json" },
-    { "resource": "./apps/application.json" }
+    { "resource": "./apps/application.json" },
+    { "resource": "./contexts/backoffice/shared/application.json" },
+    { "resource": "./contexts/backoffice/client/application.json" }
 
   ]
 }
