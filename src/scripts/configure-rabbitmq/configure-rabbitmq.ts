@@ -11,6 +11,7 @@ const queuesToBindings = ids.map(id => {
 
 	const queue = subscriber.queueName();
 	const bindings = subscriber.subscribedTo().map(event => event.EVENT_NAME);
+	console.log({ queue, bindings });
 
 	return { queue, bindings };
 });

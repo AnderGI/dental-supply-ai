@@ -6,7 +6,7 @@
     },
     "backoffice.client.ClientRegistrar": {
       "class": "../../../../../../../contexts/backoffice/client/application/register/ClientRegistrar",
-      "arguments": ["@backoffice.client.ClientRepository"]
+      "arguments": ["@backoffice.client.ClientRepository", "@backoffice.shared.EventBus"]
     },
     "andergi.backoffice.client.event.client_registered.1": {
       "class": "../../../../../../../contexts/backoffice/client/application/register/ClientRegisteredDomainEvent",

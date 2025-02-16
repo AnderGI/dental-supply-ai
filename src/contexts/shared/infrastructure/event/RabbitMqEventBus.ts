@@ -13,6 +13,7 @@ export class RabbitMqEventBus implements EventBus {
 
 	async publish(event: DomainEvent): Promise<void> {
 		try {
+			
 			await this.rabbitmqConnection.publish({
 				routingKey: event.eventName,
 				messageId: event.eventId,
