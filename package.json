@@ -31,9 +31,10 @@
     "start:backoffice:backend": "cross-env NODE_ENV=production node dist/src/apps/backoffice/backend/start",
     "rabbitmq:configure": "npx ts-node ./src/scripts/configure-rabbitmq/configure-rabbitmq.ts",
     "rabbitmq:consume": "npx ts-node ./src/scripts/configure-rabbitmq/consume-rabbitmq.ts",
-    "test:backoffice:backend:spotify-user":"npm run test:backoffice:backend:spotify-user:unit && npm run test:backoffice:backend:spotify-user:integration",
-    "test:backoffice:backend:client:unit":"cross-env NODE_ENV=test jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/client/application/.*\\.test\\.ts'",
-    "test:backoffice:backend:client:integration":"cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/client/infrastructure/.*/.*\\.test\\.ts'"
+    "scrappe": "npx ts-node ./src/scripts/scrapping/start.ts",
+    "test:backoffice:backend:spotify-user": "npm run test:backoffice:backend:spotify-user:unit && npm run test:backoffice:backend:spotify-user:integration",
+    "test:backoffice:backend:client:unit": "cross-env NODE_ENV=test jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/client/application/.*\\.test\\.ts'",
+    "test:backoffice:backend:client:integration": "cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/client/infrastructure/.*/.*\\.test\\.ts'"
   },
   "dependencies": {
     "@langchain/core": "^0.3.23",
@@ -64,6 +65,7 @@
     "node-dependency-injection": "2.6.11",
     "nunjucks": "^3.2.3",
     "pg": "^8.13.1",
+    "playwright": "^1.50.1",
     "reflect-metadata": "^0.2.2",
     "ts-node": "^10.9.1",
     "typeorm": "^0.3.20",

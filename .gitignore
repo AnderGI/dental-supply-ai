@@ -3,3 +3,4 @@ node_modules/
 logs/
 data
 test-results.xml
+.github/workflows/nodejs.yml
