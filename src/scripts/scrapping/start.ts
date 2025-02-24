@@ -33,13 +33,11 @@ async function setup() {
 	let endOfList = false;
 	while (!endOfList) {
 		// eslint-disable-next-line no-await-in-loop
-		await scrollable.evaluate(node => node.scrollBy(0, 50000));
+		await scrollable.evaluate(node => node.scrollBy(0, 70000));
 		// eslint-disable-next-line no-await-in-loop
 		// await page.waitForTimeout(2000); // Espera a que se cargue más contenido
 		// eslint-disable-next-line no-await-in-loop
-		endOfList = await page.evaluate(() =>
-			document.body.innerText.includes('Has llegado al final de la lista.')
-		);
+		endOfList = await page.evaluate(() => document.body.innerText.includes('final de la lista.'));
 	}
 
 	await page.waitForTimeout(5000);
@@ -85,22 +83,11 @@ async function setup() {
 						':scope > div:last-child > span:last-child > span:last-child'
 					)?.textContent ?? '';
 
-				const linkParent = element.parentNode?.parentNode?.parentNode?.parentNode?.querySelector(
-					':scope > div:nth-child(2)'
-				);
-				// Especifica el tipo al usar querySelectorAll
-				const allLinks = Array.from(
-					linkParent?.querySelectorAll<HTMLAnchorElement>('a[href]') ?? []
-				);
-
-				// Ahora, TypeScript sabe que "a" es un HTMLAnchorElement y puedes usar startsWith sin problemas.
-				const filteredLinks = allLinks.filter(
-					(a: HTMLAnchorElement) => !a.href.startsWith('https://www.google.com/maps/place/')
-				);
-
-				if (filteredLinks.length > 0) {
-					web = filteredLinks[0].href;
-				}
+				const link =
+					element.parentElement?.parentElement?.parentElement?.parentElement?.querySelector<HTMLAnchorElement>(
+						':scope a'
+					);
+				web = link?.href ?? '';
 
 				return { title, rating, reviews, industry, address, phone, web };
 			});
