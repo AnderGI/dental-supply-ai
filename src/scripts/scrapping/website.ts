@@ -29,6 +29,7 @@ async function scrapeEmailsRecursive(
 		const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
 		const foundEmails: RegExpMatchArray | null = content.match(emailRegex);
 		if (foundEmails) {
+			// eslint-disable-next-line array-callback-return
 			foundEmails.forEach((email: string) => emails.add(email));
 		}
 
@@ -52,9 +53,11 @@ async function scrapeEmailsRecursive(
 
 		// Recorre recursivamente los enlaces internos
 		for (const link of internalLinks) {
+			// eslint-disable-next-line no-await-in-loop
 			await scrapeEmailsRecursive(page, link, visited, emails, domain, depth - 1);
 		}
 	} catch (error) {
+		// eslint-disable-next-line @typescript-eslint/restrict-template-expressions
 		console.error(`Error scrapeando ${url}: ${error}`);
 	}
 }

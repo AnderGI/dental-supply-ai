@@ -72,6 +72,7 @@ function extractEmails(html: string): string[] {
 	const emails: Set<string> = new Set();
 	const matches = html.match(emailRegex);
 	if (matches) {
+		// eslint-disable-next-line array-callback-return
 		matches.forEach(email => emails.add(email));
 	}
 
