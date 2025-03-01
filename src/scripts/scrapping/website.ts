@@ -65,7 +65,7 @@ async function main(): Promise<void> {
 	const page: Page = await browser.newPage();
 
 	// Cambia este valor por la URL que deseas scrapeear
-	const startUrl = 'https://odontofamily.es/';
+	const startUrl = 'https://odontofamily.es/contacto/';
 	const domain: string = new URL(startUrl).hostname;
 
 	const visited: Set<string> = new Set<string>();

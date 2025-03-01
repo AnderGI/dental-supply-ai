@@ -33,6 +33,7 @@
     "rabbitmq:consume": "npx ts-node ./src/scripts/configure-rabbitmq/consume-rabbitmq.ts",
     "scrappe": "npx ts-node ./src/scripts/scrapping/start.ts",
     "website": "npx ts-node ./src/scripts/scrapping/website.ts",
+    "website2": "npx ts-node ./src/scripts/scrapping/website-2.ts",
     "test:backoffice:backend:spotify-user": "npm run test:backoffice:backend:spotify-user:unit && npm run test:backoffice:backend:spotify-user:integration",
     "test:backoffice:backend:client:unit": "cross-env NODE_ENV=test jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/client/application/.*\\.test\\.ts'",
     "test:backoffice:backend:client:integration": "cross-env NODE_ENV=test NODE_OPTIONS=\"--experimental-vm-modules\" jest --passWithNoTests --testPathPattern './tests/contexts/backoffice/client/infrastructure/.*/.*\\.test\\.ts'"
@@ -45,6 +46,7 @@
     "body-parser": "^1.19.0",
     "bodybuilder": "^2.4.0",
     "bson": "^4.5.2",
+    "cheerio": "^1.0.0",
     "compression": "^1.7.4",
     "connect-flash": "^0.1.1",
     "convict": "^6.2.4",
