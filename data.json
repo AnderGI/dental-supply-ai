@@ -6,7 +6,7 @@
     "industry": "Clínica dental",
     "address": "Udaberria Kalea, 12",
     "phone": "944 30 25 87",
-    "web": "https://clinica-udaberri.com/?utm_source=Google%20My%20Business&utm_medium=maps&utm_campaign=gmb"
+    "web": ""
   },
   {
     "title": "Clinica Dental Gobela en Getxo-Romo",
@@ -15,16 +15,7 @@
     "industry": "Clínica dental",
     "address": "Luis Lopez Oses Kalea, 4",
     "phone": "944 64 19 11",
-    "web": "http://www.clinicadentalgobela.es/"
-  },
-  {
-    "title": "Maxal, clínica dental y maxilofacial",
-    "rating": "4,7",
-    "reviews": "72",
-    "industry": "Clínica dental",
-    "address": "C. las Mercedes Kalea, 25, 1º",
-    "phone": "944 80 78 72",
-    "web": "https://maxalclinicadental.com/"
+    "web": ""
   },
   {
     "title": "Belén Pérez-Odontología Integral-Clínica Dental en Getxo",
@@ -33,7 +24,7 @@
     "industry": "Clínica dental",
     "address": "Rotonda de Fadura, Los Chopos Etorbidea, s/n",
     "phone": "650 81 74 48",
-    "web": "https://belenperezdental.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    "web": ""
   },
   {
     "title": "Clínica Dental Martul Celemín",
@@ -42,34 +33,7 @@
     "industry": "Dentista",
     "address": "Santa Ana Kalea, 2",
     "phone": "944 63 73 95",
-    "web": "https://www.martuldental.com/"
-  },
-  {
-    "title": "Clínica Dental Romo",
-    "rating": "4,8",
-    "reviews": "29",
-    "industry": "Clínica dental",
-    "address": "Lope de Vega Kalea, 13",
-    "phone": "944 80 00 36",
-    "web": "https://clinicadentalromo.com/"
-  },
-  {
-    "title": "Clinica Dental Ursua Berrazueta",
-    "rating": "4,7",
-    "reviews": "27",
-    "industry": "Clínica dental",
-    "address": "Av. Basagoiti, 59, BAJO",
-    "phone": "944 91 08 81",
-    "web": "http://www.clinicaursuaberrazueta.es/"
-  },
-  {
-    "title": "Clínica Dental Ereaga - Clínica Dental en Getxo",
-    "rating": "4,9",
-    "reviews": "8",
-    "industry": "Clínica dental",
-    "address": "Av. Algortako Etorbidea, 106",
-    "phone": "946 85 29 01",
-    "web": "https://www.clinicadentalereaga.com/?utm_source=google++my+business&utm_medium=sitio+web+&utm_campaign=info+"
+    "web": ""
   },
   {
     "title": "Aixerrota Clínica Dental",
@@ -78,7 +42,25 @@
     "industry": "Clínica dental",
     "address": "Bidezabal, 15, Bajo",
     "phone": "946 02 63 37",
-    "web": "http://www.aixerrotadental.es/"
+    "web": ""
+  },
+  {
+    "title": "Clínica Dental Ereaga - Clínica Dental en Getxo",
+    "rating": "4,9",
+    "reviews": "8",
+    "industry": "Clínica dental",
+    "address": "Av. Algortako Etorbidea, 106",
+    "phone": "946 85 29 01",
+    "web": ""
+  },
+  {
+    "title": "Clinica Dental Algorta - Dra. Raquel Rincón",
+    "rating": "4,2",
+    "reviews": "5",
+    "industry": "Dentista",
+    "address": "Calle Alangobarri Kalea, 9, 1ºC",
+    "phone": "944 60 42 76",
+    "web": ""
   },
   {
     "title": "clinica dental Argide",
@@ -90,13 +72,22 @@
     "web": ""
   },
   {
-    "title": "Clinica Dental Algorta - Dra. Raquel Rincón",
-    "rating": "4,2",
-    "reviews": "5",
-    "industry": "Dentista",
-    "address": "Calle Alangobarri Kalea, 9, 1ºC",
-    "phone": "944 60 42 76",
-    "web": "http://www.clinicadentalalgorta.com/"
+    "title": "Maxal, clínica dental y maxilofacial",
+    "rating": "4,7",
+    "reviews": "72",
+    "industry": "Clínica dental",
+    "address": "C. las Mercedes Kalea, 25, 1º",
+    "phone": "944 80 78 72",
+    "web": ""
+  },
+  {
+    "title": "Clinica Dental Ursua Berrazueta",
+    "rating": "4,7",
+    "reviews": "27",
+    "industry": "Clínica dental",
+    "address": "Av. Basagoiti, 59, BAJO",
+    "phone": "944 91 08 81",
+    "web": ""
   },
   {
     "title": "Clínica Dental Abra 4 | ORALIS",
@@ -105,16 +96,25 @@
     "industry": "Dentista",
     "address": "Zugatzarte Etorb., 8",
     "phone": "944 80 71 26",
-    "web": "https://www.oralis.es/clinica-abra-cuatro/"
+    "web": ""
   },
   {
-    "title": "Baident Getxo",
-    "rating": "4,9",
-    "reviews": "18",
-    "industry": "Dentista",
-    "address": "BAIDENT, Ibaiondo Kalea, 5",
-    "phone": "944 81 02 00",
-    "web": "https://www.baident.com/"
+    "title": "Clínica Dental Romo",
+    "rating": "4,8",
+    "reviews": "29",
+    "industry": "Clínica dental",
+    "address": "Lope de Vega Kalea, 13",
+    "phone": "944 80 00 36",
+    "web": ""
+  },
+  {
+    "title": "MURIAS DENTAL",
+    "rating": "4,8",
+    "reviews": "24",
+    "industry": "Clínica dental",
+    "address": "Adiskidetasuna Kalea AMISTAD 4",
+    "phone": "944 59 44 27",
+    "web": ""
   },
   {
     "title": "Clinica Dental Vallejo Y Daniele",
@@ -123,7 +123,106 @@
     "industry": "Dentista",
     "address": "Negubide Kalea, 5",
     "phone": "944 64 70 85",
-    "web": "https://vallejodanieledental.com/"
+    "web": ""
+  },
+  {
+    "title": "Clínica Dental y Centro de Rehabilitación IMQ Areeta",
+    "rating": "3,8",
+    "reviews": "36",
+    "industry": "Dentista",
+    "address": "Paulino Mendivil Kalea, 7",
+    "phone": "946 55 11 99",
+    "web": ""
+  },
+  {
+    "title": "Baident Getxo",
+    "rating": "4,9",
+    "reviews": "18",
+    "industry": "Dentista",
+    "address": "BAIDENT, Ibaiondo Kalea, 5",
+    "phone": "944 81 02 00",
+    "web": ""
+  },
+  {
+    "title": "Clinica Dental Bidezabal",
+    "rating": "4,0",
+    "reviews": "13",
+    "industry": "Clínica dental",
+    "address": "Bidezabal Kalea, 32, local",
+    "phone": "944 91 08 79",
+    "web": ""
+  },
+  {
+    "title": "Dra. Arantza Etxebarria Landazabal, Dentista",
+    "rating": "",
+    "reviews": "",
+    "industry": "Dentista",
+    "address": "Bidebarri, 27",
+    "phone": "Bidebarri, 27",
+    "web": ""
+  },
+  {
+    "title": "Odontofamily | Dentista en Getxo",
+    "rating": "3,9",
+    "reviews": "31",
+    "industry": "Clínica dental",
+    "address": "Ibaigane Kalea, 13, bajo",
+    "phone": "944 64 50 78",
+    "web": ""
+  },
+  {
+    "title": "Clínica dental Arantza Etxebarria Hortz klinika",
+    "rating": "5,0",
+    "reviews": "1",
+    "industry": "Médico",
+    "address": "Bidebarri Kalea, 27",
+    "phone": "944 30 76 96",
+    "web": ""
+  },
+  {
+    "title": "Clinica Dental Vallejo Y Daniele",
+    "rating": "4,5",
+    "reviews": "28",
+    "industry": "Dentista",
+    "address": "Negubide Kalea, 5",
+    "phone": "944 64 70 85",
+    "web": ""
+  },
+  {
+    "title": "clinica dental Argide",
+    "rating": "5,0",
+    "reviews": "2",
+    "industry": "Dentista",
+    "address": "",
+    "phone": "944 30 75 14",
+    "web": ""
+  },
+  {
+    "title": "clinica de ortodoncia Doctores Díaz de Villafranca",
+    "rating": "4,4",
+    "reviews": "23",
+    "industry": "Clínica dental",
+    "address": "C. las Mercedes Kalea, 25",
+    "phone": "944 63 72 11",
+    "web": ""
+  },
+  {
+    "title": "CLÍNICA DENTAL LETAMENDIA",
+    "rating": "4,7",
+    "reviews": "24",
+    "industry": "Clínica dental",
+    "address": "Maidagan Kalea, 61",
+    "phone": "944 91 40 94",
+    "web": ""
+  },
+  {
+    "title": "Dentista Las Arenas | Dra. Elena Bocage",
+    "rating": "4,3",
+    "reviews": "29",
+    "industry": "Dentista",
+    "address": "Artecalle Kalea, 2, 2 derecha",
+    "phone": "944 80 29 87",
+    "web": ""
   },
   {
     "title": "Clínica Dental Teresa Barrenechea Nueva ubicación",
@@ -135,78 +234,6 @@
     "web": ""
   },
   {
-    "title": "Clínica dental Arantza Etxebarria Hortz klinika",
-    "rating": "5,0",
-    "reviews": "1",
-    "industry": "Dentista",
-    "address": "Bidebarri Kalea, 27",
-    "phone": "944 30 76 96",
-    "web": "https://www.clinicadentalarantzaetxebarria.com/"
-  },
-  {
-    "title": "Dra. Verónica Pie de Hierro Leka",
-    "rating": "5,0",
-    "reviews": "1",
-    "industry": "Centro médico",
-    "address": "C. las Mercedes Kalea, 25",
-    "phone": "946 66 30 02",
-    "web": "https://www.topdoctors.es/doctor/veronica-pie-de-hierro-leka"
-  },
-  {
-    "title": "CLINICA DENTAL Dr. Marín Picó, Rubén",
-    "rating": "5,0",
-    "reviews": "2",
-    "industry": "Facultad de medicina",
-    "address": "Tomas Olabarri Kaia, 15, bajo",
-    "phone": "946 57 86 80",
-    "web": ""
-  },
-  {
-    "title": "CLÍNICA DENTAL LETAMENDIA",
-    "rating": "4,7",
-    "reviews": "24",
-    "industry": "Clínica dental",
-    "address": "Maidagan Kalea, 61",
-    "phone": "944 91 40 94",
-    "web": "http://www.clinicaletamendia.com/?utm_source=google&utm_medium=local&utm_campaign=mybusiness"
-  },
-  {
-    "title": "Clínica Dental Blanca A. Gil Miguel",
-    "rating": "4,7",
-    "reviews": "37",
-    "industry": "Clínica dental",
-    "address": "Errekagane Kalea, 20, 1ºB",
-    "phone": "944 80 04 25",
-    "web": ""
-  },
-  {
-    "title": "Clínica Dental las Arenas",
-    "rating": "4,7",
-    "reviews": "37",
-    "industry": "Clínica dental",
-    "address": "Club Kalea, 2",
-    "phone": "944 63 58 38",
-    "web": ""
-  },
-  {
-    "title": "Clínica Dental Eguizabal Puebla",
-    "rating": "4,9",
-    "reviews": "58",
-    "industry": "Clínica dental",
-    "address": "Av. Basagoiti, 38",
-    "phone": "946 62 06 59",
-    "web": "https://www.eguizabalypuebla.com/"
-  },
-  {
-    "title": "MURIAS DENTAL",
-    "rating": "4,8",
-    "reviews": "24",
-    "industry": "Clínica dental",
-    "address": "Adiskidetasuna Kalea AMISTAD 4",
-    "phone": "944 59 44 27",
-    "web": "http://www.muriasdental.es/"
-  },
-  {
     "title": "Ortodoncia Leyre Sánchez Ruiz",
     "rating": "5,0",
     "reviews": "1",
@@ -216,31 +243,13 @@
     "web": ""
   },
   {
-    "title": "Aida Blanco Clínica Dental",
-    "rating": "5,0",
-    "reviews": "8",
+    "title": "Clínica Dental Eguizabal Puebla",
+    "rating": "4,9",
+    "reviews": "58",
     "industry": "Clínica dental",
-    "address": "Puente-Zubia Plaza, 7",
-    "phone": "944 80 27 31",
-    "web": "http://www.aidablanco.es/"
-  },
-  {
-    "title": "Clínica Dental Vitaldent",
-    "rating": "4,7",
-    "reviews": "110",
-    "industry": "Clínica dental",
-    "address": "Kale Barria, 8",
-    "phone": "944 81 03 56",
-    "web": "https://clinicas.vitaldent.com/vizcaya/clinica-dental-vitaldent-getxo-las-arenas-350?utm_campaign=vitaldent%3Ageneral&utm_content=vitaldent&utm_id=cmp-01491-r6s7r&utm_medium=google-my-business&utm_source=google&utm_term=branding"
-  },
-  {
-    "title": "Clinica Dental - Policlínica Euskal Herria",
-    "rating": "4,6",
-    "reviews": "32",
-    "industry": "Clínica dental",
-    "address": "Euskal Herria Kalea, 22",
-    "phone": "944 91 34 62",
-    "web": "http://pehgetxo.es/"
+    "address": "Av. Basagoiti, 38",
+    "phone": "946 62 06 59",
+    "web": ""
   },
   {
     "title": "MK DENTAL - KAREN MARTUL",
@@ -249,42 +258,87 @@
     "industry": "Clínica dental",
     "address": "Santa Ana Kalea, 2, 2º B",
     "phone": "944 63 73 95",
-    "web": "http://www.martuldental.com/"
+    "web": ""
   },
   {
-    "title": "Clinica Dental Vallejo Y Daniele",
-    "rating": "4,5",
-    "reviews": "28",
+    "title": "Odontofamily | Dentista en Getxo",
+    "rating": "3,9",
+    "reviews": "31",
+    "industry": "Clínica dental",
+    "address": "Ibaigane Kalea, 13, bajo",
+    "phone": "944 64 50 78",
+    "web": ""
+  },
+  {
+    "title": "Clínica Dental Muguruza",
+    "rating": "",
+    "reviews": "",
     "industry": "Dentista",
-    "address": "Negubide Kalea, 5",
-    "phone": "944 64 70 85",
-    "web": "https://vallejodanieledental.com/"
+    "address": "Calle Caja de Ahorros Kalea, 6",
+    "phone": "Calle Caja de Ahorros Kalea, 6",
+    "web": ""
   },
   {
     "title": "Dra. Arantza Etxebarria Landazabal, Dentista",
-    "rating": "4,5",
-    "reviews": "28",
+    "rating": "",
+    "reviews": "",
     "industry": "Dentista",
     "address": "Bidebarri, 27",
     "phone": "Bidebarri, 27",
-    "web": "https://www.doctoralia.es/arantza-etxebarria-landazabal/dentista/getxo?utm_source=google&utm_medium=gmb&utm_campaign=124156&utm_content=website"
+    "web": ""
   },
   {
-    "title": "clinica de ortodoncia Doctores Díaz de Villafranca",
-    "rating": "4,4",
-    "reviews": "23",
+    "title": "Stefy Dental",
+    "rating": "3,0",
+    "reviews": "7",
     "industry": "Clínica dental",
-    "address": "C. las Mercedes Kalea, 25",
-    "phone": "944 63 72 11",
-    "web": "http://www.ortodonciagetxo.com/"
+    "address": "Ganeta Kalea, 3",
+    "phone": "946 55 56 51",
+    "web": ""
   },
   {
-    "title": "Clínica Dental Modesto Herranz Esteban",
+    "title": "Clinica Dental - Policlínica Euskal Herria",
+    "rating": "4,6",
+    "reviews": "32",
+    "industry": "Clínica dental",
+    "address": "Euskal Herria Kalea, 22",
+    "phone": "944 91 34 62",
+    "web": ""
+  },
+  {
+    "title": "CLINICA DENTAL ORMAZA",
     "rating": "5,0",
-    "reviews": "1",
+    "reviews": "6",
     "industry": "Clínica dental",
-    "address": "Libertador Simon Bolivar Hiribidea, 9",
-    "phone": "944 83 24 76",
+    "address": "Ormatzabekoa Kalea, BAJO",
+    "phone": "946 57 40 98",
+    "web": ""
+  },
+  {
+    "title": "Aida Blanco Clínica Dental",
+    "rating": "5,0",
+    "reviews": "8",
+    "industry": "Clínica dental",
+    "address": "Puente-Zubia Plaza, 7",
+    "phone": "944 80 27 31",
+    "web": ""
+  },
+  {
+    "title": "Clínica Gurea",
+    "rating": "4,6",
+    "reviews": "11",
+    "industry": "Clínica dental",
+    "address": "Bidezabal Kalea, 9",
+    "phone": "688 86 51 75",
+    "web": ""
+  },
+  {
+    "title": "Clínica Ortodoncia Zamalloa",
+    "rating": "4,8",
+    "reviews": "117",
+    "industry": "Ortodoncista",
+    "address": "C. las Mercedes Kalea, 31",
+    "phone": "944 80 24 75",
     "web": ""
   },
   {
@@ -300,45 +354,18 @@
     "title": "Clínica dental Arantza Etxebarria Hortz klinika",
     "rating": "5,0",
     "reviews": "1",
-    "industry": "Dentista",
+    "industry": "Médico",
     "address": "Bidebarri Kalea, 27",
     "phone": "944 30 76 96",
-    "web": "https://www.clinicadentalarantzaetxebarria.com/"
+    "web": ""
   },
   {
-    "title": "Clinica Dental Bidezabal",
-    "rating": "4,0",
-    "reviews": "13",
+    "title": "Clínica Dental Vitaldent",
+    "rating": "4,7",
+    "reviews": "110",
     "industry": "Clínica dental",
-    "address": "Bidezabal Kalea, 32, local",
-    "phone": "944 91 08 79",
-    "web": "https://www.bidezabalclinicadental.es/"
-  },
-  {
-    "title": "Clínica Gurea",
-    "rating": "4,6",
-    "reviews": "11",
-    "industry": "Clínica dental",
-    "address": "Bidezabal Kalea, 9",
-    "phone": "688 86 51 75",
-    "web": "https://clinicagurea.com/"
-  },
-  {
-    "title": "Dentista Las Arenas | Dra. Elena Bocage",
-    "rating": "4,3",
-    "reviews": "29",
-    "industry": "Dentista",
-    "address": "Artecalle Kalea, 2, 2 derecha",
-    "phone": "944 80 29 87",
-    "web": "http://www.dentistalasarenas.com/"
-  },
-  {
-    "title": "Clínica Dental Muguruza",
-    "rating": "4,3",
-    "reviews": "29",
-    "industry": "Dentista",
-    "address": "Calle Caja de Ahorros Kalea, 6",
-    "phone": "Calle Caja de Ahorros Kalea, 6",
+    "address": "Kale Barria, 8",
+    "phone": "944 81 03 56",
     "web": ""
   },
   {
@@ -351,13 +378,13 @@
     "web": ""
   },
   {
-    "title": "Odontofamily | Dentista en Getxo",
-    "rating": "3,9",
-    "reviews": "31",
-    "industry": "Clínica dental",
-    "address": "Ibaigane Kalea, 13, bajo",
-    "phone": "944 64 50 78",
-    "web": "http://www.odontofamily.es/"
+    "title": "Clínica Dental y Centro de Rehabilitación IMQ Areeta",
+    "rating": "3,8",
+    "reviews": "36",
+    "industry": "Dentista",
+    "address": "Paulino Mendivil Kalea, 7",
+    "phone": "946 55 11 99",
+    "web": ""
   },
   {
     "title": "Grupo Llona - Clínica dental en Algorta",
@@ -366,69 +393,15 @@
     "industry": "Dentista",
     "address": "Amezti Kalea, 7",
     "phone": "944 60 01 00",
-    "web": "https://www.grupollona.es/"
-  },
-  {
-    "title": "CLINICA DENTAL ORMAZA",
-    "rating": "5,0",
-    "reviews": "6",
-    "industry": "Clínica dental",
-    "address": "Ormatzabekoa Kalea, BAJO",
-    "phone": "946 57 40 98",
     "web": ""
-  },
-  {
-    "title": "Clínica Dolor Vizcaya",
-    "rating": "5,0",
-    "reviews": "6",
-    "industry": "Clínica dental",
-    "address": "Cristobal Colon Kalea, 7",
-    "phone": "Cristobal Colon Kalea, 7",
-    "web": ""
-  },
-  {
-    "title": "Clinica Dental Ondiz",
-    "rating": "4,0",
-    "reviews": "5",
-    "industry": "Dentista",
-    "address": "Errotabide Kalea, 5",
-    "phone": "944 31 60 54",
-    "web": "https://clinicadentalondiz.es/"
   },
   {
     "title": "Clínica Dental Amesti",
-    "rating": "4,0",
-    "reviews": "5",
+    "rating": "",
+    "reviews": "",
     "industry": "Clínica dental",
     "address": "Amezti Kalea, 7, 2º INTERIOR IZQUIERDA",
     "phone": "944 91 23 71",
-    "web": "http://41.15.61.7/"
-  },
-  {
-    "title": "Patricio Oribe Muguruza",
-    "rating": "5,0",
-    "reviews": "7",
-    "industry": "Dentista",
-    "address": "Lugar Puerto de Orduña, 26",
-    "phone": "944 30 07 05",
-    "web": ""
-  },
-  {
-    "title": "Salsidu Dental",
-    "rating": "4,7",
-    "reviews": "7",
-    "industry": "Clínica dental",
-    "address": "Salsidu Etorbidea, 30",
-    "phone": "944 30 64 62",
-    "web": ""
-  },
-  {
-    "title": "Química Dental J. Urbina",
-    "rating": "4,7",
-    "reviews": "7",
-    "industry": "Dentista",
-    "address": "Andres Larrazabal K., 6",
-    "phone": "944 63 28 86",
     "web": ""
   },
   {
@@ -441,94 +414,58 @@
     "web": ""
   },
   {
-    "title": "Clinica Dental Alaia Leioa | Líderes en Ortodoncia Invisible",
-    "rating": "4,9",
-    "reviews": "21",
-    "industry": "Clínica dental",
-    "address": "Artatza Kalea, bajo 20 izquierda",
-    "phone": "946 55 03 05",
-    "web": "http://www.alaiadental.com/"
-  },
-  {
-    "title": "Clínica Dental Martul Celemín Karen",
+    "title": "Clínica Dental Modesto Herranz Esteban",
     "rating": "5,0",
-    "reviews": "4",
-    "industry": "Dentista",
-    "address": "Santa Ana Kalea, 2",
-    "phone": "944 63 73 95",
+    "reviews": "1",
+    "industry": "Clínica dental",
+    "address": "Libertador Simon Bolivar Hiribidea, 9",
+    "phone": "944 83 24 76",
     "web": ""
   },
   {
-    "title": "Stefy Dental",
-    "rating": "3,0",
+    "title": "Clínica Dolor Vizcaya",
+    "rating": "",
+    "reviews": "",
+    "industry": "Clínica dental",
+    "address": "Cristobal Colon Kalea, 7",
+    "phone": "Cristobal Colon Kalea, 7",
+    "web": ""
+  },
+  {
+    "title": "Clínica Dental Milenium Las Arenas - Sanitas",
+    "rating": "3,7",
+    "reviews": "34",
+    "industry": "Clínica dental",
+    "address": "Paulino Mendivil Kalea, 18",
+    "phone": "946 83 51 56",
+    "web": ""
+  },
+  {
+    "title": "Química Dental J. Urbina",
+    "rating": "",
+    "reviews": "",
+    "industry": "Dentista",
+    "address": "Andres Larrazabal K., 6",
+    "phone": "944 63 28 86",
+    "web": ""
+  },
+  {
+    "title": "Salsidu Dental",
+    "rating": "4,7",
     "reviews": "7",
     "industry": "Clínica dental",
-    "address": "Ganeta Kalea, 3",
-    "phone": "946 55 56 51",
+    "address": "Salsidu Etorbidea, 30",
+    "phone": "944 30 64 62",
     "web": ""
   },
   {
     "title": "Fikadental",
-    "rating": "3,0",
-    "reviews": "7",
+    "rating": "",
+    "reviews": "",
     "industry": "Clínica dental",
     "address": "Paulino Mendivil Kalea, 13, 1º C",
     "phone": "944 64 50 26",
-    "web": "http://www.fikadental.com/"
-  },
-  {
-    "title": "Clínica Dental y Centro de Rehabilitación IMQ Areeta",
-    "rating": "3,8",
-    "reviews": "36",
-    "industry": "Dentista",
-    "address": "Paulino Mendivil Kalea, 7",
-    "phone": "946 55 11 99",
-    "web": "https://clinicadentalareeta.imq.es/"
-  },
-  {
-    "title": "Oribe Muguruza Guillermo",
-    "rating": "3,8",
-    "reviews": "36",
-    "industry": "Dentista",
-    "address": "Calle Caja de Ahorros Kalea, 0",
-    "phone": "655 72 11 74",
     "web": ""
-  },
-  {
-    "title": "Clínica de Ortodoncia",
-    "rating": "3,8",
-    "reviews": "36",
-    "industry": "Dentista",
-    "address": "Kale Barria, 19",
-    "phone": "944 80 17 28",
-    "web": ""
-  },
-  {
-    "title": "Zabalegui Ortodoncia Invisible Y Blanqueamiento Dental",
-    "rating": "5,0",
-    "reviews": "113",
-    "industry": "Dentista",
-    "address": "Landabarri Bidea, 1, Oficina 106",
-    "phone": "944 63 00 03",
-    "web": "http://zabaleguiortodoncia.com/"
-  },
-  {
-    "title": "Clínica Dental Aiboa",
-    "rating": "5,0",
-    "reviews": "113",
-    "industry": "Dentista",
-    "address": "Sagrado Corazón Kalea, 2",
-    "phone": "944 91 46 75",
-    "web": ""
-  },
-  {
-    "title": "Clínica Dental IMQ Algorta",
-    "rating": "2,6",
-    "reviews": "5",
-    "industry": "Clínica dental",
-    "address": "Amezti Kalea, 6",
-    "phone": "944 00 07 00",
-    "web": "https://bit.ly/4bhV8PE"
   },
   {
     "title": "Centro Dental Zugazarte",
@@ -540,13 +477,22 @@
     "web": ""
   },
   {
-    "title": "Clínica Dental Sonrisalud Portugalete",
-    "rating": "4,7",
-    "reviews": "46",
+    "title": "Oribe Muguruza Guillermo",
+    "rating": "",
+    "reviews": "",
+    "industry": "Dentista",
+    "address": "Calle Caja de Ahorros Kalea, 0",
+    "phone": "655 72 11 74",
+    "web": ""
+  },
+  {
+    "title": "Clínica Dental IMQ Algorta",
+    "rating": "2,6",
+    "reviews": "5",
     "industry": "Clínica dental",
-    "address": "Calle Gral. Castaños Kalea, 31",
-    "phone": "946 95 30 87",
-    "web": "https://www.google.com/aclk?sa=l&ai=DChcSEwik4ceV8-iLAxULroMHHQMJOo4YABACGgJlZg&co=1&ase=2&gclid=EAIaIQobChMIpOHHlfPoiwMVC66DBx0DCTqOEBAYASAAEgIrffD_BwE&sig=AOD64_2PpiqWlZFYhrYldFgnRszNU3yK8A&adurl&rct=j&q&ctype=99&nis=6"
+    "address": "Amezti Kalea, 6",
+    "phone": "944 00 07 00",
+    "web": ""
   },
   {
     "title": "Dra. Verónica Pie de Hierro Leka",
@@ -555,114 +501,42 @@
     "industry": "Centro médico",
     "address": "C. las Mercedes Kalea, 25",
     "phone": "946 66 30 02",
-    "web": "https://www.topdoctors.es/doctor/veronica-pie-de-hierro-leka"
+    "web": ""
   },
   {
-    "title": "Clínica Dental Peñota",
-    "rating": "4,9",
-    "reviews": "595",
-    "industry": "Clínica dental",
-    "address": "Gabriel Celaya Zeharkalea, 1, 2",
-    "phone": "944 83 18 08",
-    "web": "http://www.penotadental.com/"
+    "title": "Clínica Dental Martul Celemín Karen",
+    "rating": "5,0",
+    "reviews": "4",
+    "industry": "Dentista",
+    "address": "Santa Ana Kalea, 2",
+    "phone": "944 63 73 95",
+    "web": ""
   },
   {
-    "title": "Clinica Dental Aketxe",
-    "rating": "4,9",
-    "reviews": "8",
+    "title": "Clinica dental llaguno Irusta",
+    "rating": "4,8",
+    "reviews": "54",
+    "industry": "Dentista",
+    "address": "Amaia Etorbidea, 26, Bajo",
+    "phone": "944 25 76 54",
+    "web": ""
+  },
+  {
+    "title": "Clínica dental Algorta",
+    "rating": "",
+    "reviews": "",
     "industry": "Clínica dental",
-    "address": "subida al ayuntamiento, Jose Ramon Aketxe Plaza, 9, 1ºC",
-    "phone": "944 64 01 33",
-    "web": "http://www.clinicadentalaketxe.com/"
+    "address": "Calle Alangobarri Kalea, 9, 1ºC",
+    "phone": "944 60 42 76",
+    "web": ""
   },
   {
     "title": "Sendabide Hortz Klinika",
-    "rating": "4,9",
-    "reviews": "8",
+    "rating": "",
+    "reviews": "",
     "industry": "Clínica dental",
     "address": "Bidebarri Kalea, 27",
     "phone": "944 30 76 96",
     "web": ""
-  },
-  {
-    "title": "Clínica Dental Milenium Las Arenas - Sanitas",
-    "rating": "3,7",
-    "reviews": "34",
-    "industry": "Clínica dental",
-    "address": "Paulino Mendivil Kalea, 18",
-    "phone": "946 83 51 56",
-    "web": "https://clinicadental-bilbao-lasarenas.sanitas.es/?gmb=gmb%3Af-google%3Am-link%3Anc-clinica%3Ap-dental"
-  },
-  {
-    "title": "Clínica Dental ZABALA",
-    "rating": "4,9",
-    "reviews": "194",
-    "industry": "Clínica dental",
-    "address": "Avenida Carlos VII Etorbidea, 8",
-    "phone": "944 62 54 00",
-    "web": "https://www.clinicadentalzabala.com/"
-  },
-  {
-    "title": "Clínica Dental Pereiro",
-    "rating": "4,9",
-    "reviews": "194",
-    "industry": "Dentista",
-    "address": "Euskal Herria Kalea, 1",
-    "phone": "944 91 14 63",
-    "web": ""
-  },
-  {
-    "title": "Berango Dental",
-    "rating": "4,8",
-    "reviews": "10",
-    "industry": "Clínica dental",
-    "address": "Gobelalde Kalea, 5",
-    "phone": "944 04 35 94",
-    "web": "http://berangodental.com/"
-  },
-  {
-    "title": "CLINICA DENTAL AYO & MUÑOZ",
-    "rating": "4,9",
-    "reviews": "26",
-    "industry": "Clínica dental",
-    "address": "Av. Sabino Arana Etorbidea, 84",
-    "phone": "946 75 27 13",
-    "web": "https://clinicadentalayomunoz.com/"
-  },
-  {
-    "title": "Las Arenas",
-    "rating": "4,5",
-    "reviews": "28",
-    "industry": "Dentista",
-    "address": "Paulino Mendivil Kalea, 5",
-    "phone": "Paulino Mendivil Kalea, 5",
-    "web": ""
-  },
-  {
-    "title": "Pérez Del Olmo Lorena",
-    "rating": "4,5",
-    "reviews": "28",
-    "industry": "Dentista",
-    "address": "Eduardo Coste Kalea, 4A",
-    "phone": "944 63 99 97",
-    "web": ""
-  },
-  {
-    "title": "Clínica Estética Dental Smysecret",
-    "rating": "4,5",
-    "reviews": "28",
-    "industry": "Dentista cosmético",
-    "address": "Mayor Kalea, 23",
-    "phone": "900 730 720",
-    "web": "https://www.smysecret.com/espacios/?utm_campaign=smysecret:general&utm_content=smysecret&utm_id=cmp-01502-f7y1t&utm_medium=google-my-business&utm_source=google&utm_term=estetica"
-  },
-  {
-    "title": "Clínica dental Algorta",
-    "rating": "4,5",
-    "reviews": "28",
-    "industry": "Clínica dental",
-    "address": "Calle Alangobarri Kalea, 9, 1ºC",
-    "phone": "944 60 42 76",
-    "web": "https://www.clinicadentalalgorta.com/"
   }
 ]

@@ -4,9 +4,9 @@
       "class": "../../controllers/status-health-check/StatusGetController",
       "arguments": [""]
     },
-    "apps.backoffice.ClientPutController":{
-      "class": "../../controllers/register-client/ClientPutController",
-      "arguments": ["@shared.CommandBus"]
+    "apps.backoffice.BusinessPostController":{
+      "class": "../../controllers/business/scrape-google-maps/BusinessPostController",
+      "arguments": ["@backoffice.shared.EventBus"]
     }
   }
 }

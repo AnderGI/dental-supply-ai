@@ -1,10 +1,8 @@
 {
   "imports": [
-    { "resource": "./shared/application.json" },
-    { "resource": "./apps/application.json" },
     { "resource": "./contexts/backoffice/shared/application.json" },
-    { "resource": "./contexts/backoffice/client/application.json" },
-    { "resource": "./contexts/backoffice/client-insights/application.json" }
-
+    { "resource": "./apps/application.json" },
+    { "resource": "./contexts/backoffice/business/application.json" }
+    
   ]
 }

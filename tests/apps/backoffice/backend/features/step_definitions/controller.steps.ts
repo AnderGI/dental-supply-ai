@@ -31,6 +31,15 @@ Given(
 	}
 );
 
+Given(
+	'I send a POST request to {string} with JSON request body:',
+	async (route: string, body: string) => {
+		_response = await request(application.httpServer)
+			.post(route)
+			.send(JSON.parse(body) as object);
+	}
+);
+
 Then('the response status code should be {int}', (status: number) => {
 	// _response = await _request.expect(status);
 	assert.deepEqual(_response.status, status);

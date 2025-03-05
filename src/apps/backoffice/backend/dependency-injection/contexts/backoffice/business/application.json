@@ -1,0 +1,21 @@
+{
+  "services": {
+    "backoffice.business.BusinessScrapper": {
+      "class": "../../../../../../../contexts/backoffice/business/infrastructure/PlaywrightBusinessScrapper",
+      "arguments": [""]
+    },
+    "andergi.backoffice.business.command.scrape-businesses.1": {
+      "class": "../../../../../../../apps/backoffice/backend/controllers/business/scrape-google-maps/ScrapeBusinessesDomainEvent",
+      "arguments": [""],
+      "tags": [{"name":"domainEvent"}]
+    },
+    "backoffice.business.ScrappeBusinessesCommandHandler": {
+      "class": "../../../../../../../contexts/backoffice/business/application/scrappe-business/ScrappeBusinessesCommandHandler",
+      "arguments": ["@backoffice.business.BusinessScrapper"],
+      "tags": [{"name":"subscriber"}]
+    }
+  }
+}
+
+
+

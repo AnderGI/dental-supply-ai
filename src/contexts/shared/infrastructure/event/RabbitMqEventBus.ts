@@ -18,6 +18,7 @@ export class RabbitMqEventBus implements EventBus {
 				messageId: event.eventId,
 				data: this.serialize(event)
 			});
+			console.log('ok published');
 		} catch (err) {
 			console.log(err);
 			await this.domainEventsFallback.fallback(event);
