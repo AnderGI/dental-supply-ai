@@ -1,9 +1,0 @@
-{
-  "services": {
-    "backoffice.client-insights.CreateClientInsightsOnClientUpdated": {
-      "class": "../../../../../../../contexts/backoffice/client-insights/application/create/CreateClientInsightsOnClientUpdated",
-      "arguments": [""],
-      "tags": [{"name":"subscriber"}]
-    }
-  }
-}

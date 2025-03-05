@@ -1,0 +1,43 @@
+name: Main CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: List files in the current directory
+        run: ls -la
+      - name: Start docker
+        run: docker compose up -d
+      - name: Wait for containers to be ready
+        run: sleep 10
+      - name: Check running containers
+        run: docker ps
+      - name: Install dependencies
+        run: npm install
+      - name: Run linter
+        run: npm run lint
+      - name: Configure RabbitMQ exchanges and queues from subscribers
+        run: npm run rabbitmq:configure
+      - name: Open a consumption channel for RabbitMQ subscribers
+        run: npm run rabbitmq:consume 
+      - name: Build process
+        run: npm run build
+      - name: Run backend feature tests
+        run: npm run test:backoffice:backend:features
+      - name: Stop docker container
+        if: always()
+        run: docker compose down

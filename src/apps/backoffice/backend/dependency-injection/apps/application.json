@@ -3,10 +3,6 @@
     "apps.backoffice.StatusGetController":{
       "class": "../../controllers/status-health-check/StatusGetController",
       "arguments": [""]
-    },
-    "apps.backoffice.ClientPutController":{
-      "class": "../../controllers/register-client/ClientPutController",
-      "arguments": ["@shared.CommandBus"]
     }
   }
 }

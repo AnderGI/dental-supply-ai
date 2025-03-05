@@ -1,6 +1,9 @@
-name: Node CI
+name: Develop CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
   build:
@@ -9,9 +12,9 @@ jobs:
       matrix:
         node-version: [20.x]
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
@@ -27,18 +30,18 @@ jobs:
         run: npm install
       - name: Run linter
         run: npm run lint
-      - name: Configure RabbitMQ exchanges and queues from subcribers
+      - name: Configure RabbitMQ exchanges and queues from subscribers
         run: npm run rabbitmq:configure
       - name: Open a consumption channel for RabbitMQ subscribers
         run: npm run rabbitmq:consume &
       - name: Build process
         run: npm run build
-      - name: Backoffice client context unit tests
+      - name: Run backend client unit tests
         run: npm run test:backoffice:backend:client:unit
-      - name: Backoffice client context integration tests
+      - name: Run backend client integration tests
         run: npm run test:backoffice:backend:client:integration
-      - name: Bckoffice vbackend feature
+      - name: Run backend feature tests
         run: npm run test:backoffice:backend:features
       - name: Stop docker container
         if: always()
-        run: docker compose down 
+        run: docker compose down
