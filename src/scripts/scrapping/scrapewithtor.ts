@@ -91,6 +91,7 @@ async function getPublicIp(page: Page): Promise<string> {
 			const data = JSON.parse(match[0]);
 			console.log('IP de salida a través de Tor:', data.ip);
 
+			// eslint-disable-next-line @typescript-eslint/no-unsafe-return
 			return data.ip;
 		}
 		throw new Error('No se encontró JSON en la respuesta.');
